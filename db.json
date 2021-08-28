@@ -1,0 +1,78 @@
+{
+  "all":{
+      "error": false,
+      "typeError": "",
+      "numRows": 4,
+      "messages": [
+          "Proceso ejecutado correctamente."
+      ],
+      "data": [
+          {
+              "idModule": 500,
+              "name": "Consulta",
+              "options": [
+                  {
+                      "name": "Reporte de Logs Auditoria",
+                      "idOption": 1,
+                      "idModule": 500,
+                      "optionSelected": true
+                  },
+                  {
+                      "name": "Reporte de Logs Error",
+                      "idOption": 2,
+                      "idModule": 500,
+                      "optionSelected": false
+                  }
+              ]
+          },
+          {
+              "idModule": 501,
+              "name": "DashBoard",
+              "options": [
+                  {
+                      "name": "Agrupado por Aplicaciones",
+                      "idOption": 3,
+                      "idModule": 501,
+                      "optionSelected": false
+                  }
+              ]
+          },
+          {
+              "idModule": 502,
+              "name": "Proceso",
+              "options": [
+                  {
+                      "name": "Proceso Postman",
+                      "idOption": 5,
+                      "idModule": 502,
+                      "optionSelected": false
+                  },
+                  {
+                      "name": "Eliminar Log",
+                      "idOption": 4,
+                      "idModule": 502,
+                      "optionSelected": false
+                  }
+              ]
+          },
+          {
+              "idModule": 503,
+              "name": "Seguridad",
+              "options": [
+                  {
+                      "name": "Registrar Usuario",
+                      "idOption": 6,
+                      "idModule": 503,
+                      "optionSelected": false
+                  },
+                  {
+                      "name": "Mantenimiento de Perfil",
+                      "idOption": 7,
+                      "idModule": 503,
+                      "optionSelected": false
+                  }
+              ]
+          }
+      ]
+  }
+}
